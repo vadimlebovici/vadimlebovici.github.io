@@ -1,0 +1,157 @@
+*
+{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body
+{
+    background-color: #2e2e2e;
+}
+
+.main_wrapper
+{
+    min-width: 600px;
+    width: 60%;
+    margin: auto;
+}
+
+header
+{
+    display: flex;
+    height: 4em;
+    margin: 0.2em;
+    border-radius: 0.6em;
+    text-decoration: none;
+    font: small-caps large Arial ;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #ffffff34;   */
+}
+.profile_picture
+{
+    width: 200px;
+    height: 200px;
+}
+
+/* Navigation */
+nav
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+nav a
+{
+    display: flex;
+    width : 15em;
+    height: 2em;
+    margin: 0.2em;
+    border-radius: 0.6em;
+    text-decoration: none;
+    font: small-caps large Arial ;
+    justify-content: center;
+    align-items: center;
+    background-color: #11aa89;
+}
+nav [selected]
+{
+    border: 4px solid #1dffced3;
+}
+
+nav a:hover
+{
+    background-color: #11aa89d3;
+}
+
+/* Organisation de la page */
+
+.section_separator
+{
+    color: #11aa89d3;
+    margin: 10px 0px 10px 0px;
+    /* width: 50%; */
+    align-content: center;
+    
+}
+
+/* Blocs de publications et preprints */
+
+.preprint
+{
+    max-height: 10em;
+    border-radius: 0.6em;
+    margin: 4px 0px 4px 0px;
+    /* text-overflow: ellipsis; */
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background: #11aa899d;
+}
+
+.preprint *
+{
+    margin: 2px 6px 2px 6px;
+}
+/* .author, .link
+{
+    margin: 0px 1px 0px 3px;
+} */
+.preprint a
+{
+    text-decoration: none;
+}
+.preprint a:hover
+{
+    color: #ffffffa9;
+}
+.bloc_author
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.author
+{
+    display: flex;
+    font-variant: small-caps;
+    align-items: center;
+    /* padding: 0px 4px 0px 4px; */
+    /* border: 2px solid black; */
+}
+.bloc_title
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 100%;
+    flex:1;
+    width: 50%;
+    /* background-color: black; */
+    overflow: hidden;
+}
+.title
+{
+    font-style: italic;
+}
+.bloc_link
+{
+    display: flex;
+    flex-direction: row;
+    height: inherit;
+}
+.arxiv, .pdf
+{
+    border-radius: 0.6ex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 1px 0px 1px ;
+    padding: 3px 3px 3px 3px;
+    background: #05352a9d;
+}
