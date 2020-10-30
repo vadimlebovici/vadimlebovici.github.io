@@ -95,10 +95,7 @@ li
     margin-bottom: 0.8em;
 }
 /* Blocs de publications et preprints */
-.publication
-{
-    list-style-type: none;
-}
+
 .preprint
 {
     max-height: 10em;
