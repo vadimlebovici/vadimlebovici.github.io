@@ -46,7 +46,8 @@ header
     width: 300px;
     height: 300px;
     margin-left: auto;
-    margin-right: auto
+    margin-right: 30px;
+    float: left;
 }
 
 /* Navigation */
@@ -171,4 +172,16 @@ li
     margin: 0px 1px 0px 1px ;
     padding: 3px 3px 3px 3px;
     background: #05352a9d;
+}
+
+table tr td.illustration
+{
+    padding: 0px 25px 15px 0px ;
+    text-align: center;
+    vertical-align: center;
+}
+
+table tr td
+{
+    padding: 0px 0px 20px 0px ;
 }
