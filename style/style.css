@@ -43,9 +43,12 @@ header
 .profile_picture
 {
     display: flex;
-    width: 250px;
-    height: 250px;
-    margin-left: auto;
+    /* scale: 0.2; */
+    width: 310px;
+    height: 485px;
+    /* width: 250px;
+    height: 250px; */
+    /* margin-left: auto; */
     margin-right: 30px;
     float: left;
 }
