@@ -52,6 +52,18 @@ header
     margin-right: 30px;
     float: left;
 }
+.letoublon
+{
+    display: flex;
+    /* scale: 0.2; */
+    width: 700px;
+    /* height: 485px; */
+    /* width: 250px;
+    height: 250px; */
+    /* margin-left: auto; */
+    /* margin-right: 30px; */
+    float: center;
+}
 
 /* Navigation */
 nav
@@ -182,6 +194,14 @@ table tr td.illustration
     padding: 0px 25px 15px 0px ;
     text-align: center;
     vertical-align: center;
+}
+table tr td.illustration-centered
+{
+    /* padding: 0px 25px 15px 0px ; */
+    text-align: center;
+    /* vertical-align: center; */
+    align-items: center;
+    justify-content: center;
 }
 
 table tr td
