@@ -25,3 +25,7 @@ li
     margin-right: 30px;
     float: left;
 }
+
+.notbold{
+    font-weight:normal
+}​
